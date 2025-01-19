@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:islami_app/core/theme/app_colors.dart';
 
 class FilledButtonWidget extends StatelessWidget {
   final String type;
@@ -94,8 +92,8 @@ class FilledButtonWidget extends StatelessWidget {
           Text(
             type,
             style: TextStyle(
-              fontFamily: "Janna",
-              fontWeight: fontWeight,
+                          fontFamily: "Janna",
+                          fontWeight: fontWeight,
               fontSize: fontSize,
               color: fontColor,
             ),
